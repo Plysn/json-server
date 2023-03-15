@@ -1,0 +1,14 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Kiến thức cơ bản về IT",
+      "description": "Kiến thức cơ bản cho người mới bắt đầu"
+    },
+    {
+      "id": 2,
+      "name": "Kiến thức cơ bản về IT",
+      "description": "Kiến thức cơ bản cho người mới bắt đầu"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Thực Hành</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        h2 {
+            padding: 15px;
+            text-align: center;
+        }
+
+        body button {
+            cursor: pointer;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 5px 15px;
+        }
+
+        #list-courses li {
+            padding: 10px 0;
+            line-height: 25px;
+        }
+
+        .create-form {
+            padding: 30px;
+            background-color: antiquewhite;
+        }
+
+        .create-form input {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Danh sách khóa học</h2>
+        <ol id="list-courses"></ol>
+        <div class="create-form">
+            <div>
+                <label for="">Name</label>
+                <input type="text" name="name">
+            </div>
+            <div>
+                <label for="">Description</label>
+                <input type="text" name="description">
+            </div>
+            <button id="create">Create</button>
+        </div>
+    </div>
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
